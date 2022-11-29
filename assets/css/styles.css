@@ -1,0 +1,209 @@
+body {
+    margin: 0;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.modal-dialog {
+    margin: 30px auto;
+    max-width: 800px;
+}
+
+.modal-body {
+    padding: 0px;
+    position: relative;
+}
+
+.btn-close {
+    position: absolute;
+    right: -30px;
+    top: 0;
+}
+
+.bg-alabaster {
+    background-color: #fafafa;
+}
+
+.bg-calypso {
+    background-color: #295c7a;
+}
+
+.section__intro-title>h2 {
+    color: #252b42;
+    font-family: 'Martel', serif;
+    font-size: 40px;
+    letter-spacing: 0.2px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.section__intro-title>p {
+    color: #737373;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.section__intro-video {
+    background: linear-gradient(180deg,
+            rgba(0, 0, 0, 0) 14.58%,
+            rgba(56, 56, 56, 0.84) 100%),
+        url("../images/video-cover1.png");
+    height: 442px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.section__intro-video-btn {
+    position: absolute;
+    width: 97.6px;
+    height: 98.4px;
+    left: calc(50% - 97.6px / 2 + 0.3px);
+    top: calc(50% - 98.4px / 2 + 0.2px);
+    background: #295c7a;
+    border-radius: 73.6px;
+}
+
+.section__intro-video-btn>button {
+    background-color: transparent;
+    height: 25%;
+    width: 25%;
+    border: none;
+    border-top: 18px solid transparent;
+    border-bottom: 18px solid transparent;
+    border-left: 30px solid #ffffff;
+}
+
+.section__intro-desc>h2 {
+    font-family: 'Martel', serif;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 0.2px;
+    color: #252b42;
+}
+
+.section__intro-desc>p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+
+.section__intro-desc-list>li h5 {
+    font-family: 'Martel', serif;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #252b42;
+}
+
+.section__intro-desc-list>li h6 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+
+.section__testimonials-title>h3 {
+    font-family: 'Martel', serif;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 0.2px;
+}
+
+.section__testimonials-title>span {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+}
+
+.section__testimonials-items {
+    padding: 30px 40px;
+}
+
+.section__testimonials-items-heading>h3 {
+    font-family: 'Martel', serif;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: #252b42;
+}
+
+.section__testimonials-items-heading>span {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+
+.section__testimonials-items-image {
+    left: -45px;
+    position: absolute;
+    top: 28px;
+}
+
+.section__testimonials-items-text {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+
+.section__testimonials-rating {
+    background-color: gold;
+    clip-path: polygon(50% 0,
+            61% 35%,
+            98% 35%,
+            68% 57%,
+            79% 91%,
+            50% 70%,
+            21% 91%,
+            32% 57%,
+            2% 35%,
+            39% 35%);
+    display: inline;
+    height: 20px;
+    width: 20px;
+}
+
+.section__testimonials-rating-blank {
+    background-color: #ffffff;
+    clip-path: polygon(50% 0,
+            61% 35%,
+            98% 35%,
+            68% 57%,
+            79% 91%,
+            50% 70%,
+            21% 91%,
+            32% 57%,
+            2% 35%,
+            39% 35%);
+    display: inline;
+    height: 20px;
+    width: 20px;
+    border: 6px solid gold;
+}
+
+.owl-carousel .owl-item img {
+    display: block;
+    width: 75%;
+} 

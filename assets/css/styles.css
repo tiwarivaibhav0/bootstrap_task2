@@ -3,9 +3,9 @@ body {
 }
 
 ul {
-    padding: 0;
-    margin: 0;
     list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 .modal-dialog {
@@ -56,80 +56,80 @@ ul {
             rgba(0, 0, 0, 0) 14.58%,
             rgba(56, 56, 56, 0.84) 100%),
         url("../images/video-cover1.png");
-    height: 442px;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    height: 442px;
 }
 
 .section__intro-video-btn {
-    position: absolute;
-    width: 97.6px;
-    height: 98.4px;
-    left: calc(50% - 97.6px / 2 + 0.3px);
-    top: calc(50% - 98.4px / 2 + 0.2px);
     background: #295c7a;
     border-radius: 73.6px;
+    height: 98.4px;
+    left: calc(50% - 97.6px / 2 + 0.3px);
+    position: absolute;
+    top: calc(50% - 98.4px / 2 + 0.2px);
+    width: 97.6px;
 }
 
 .section__intro-video-btn>button {
     background-color: transparent;
-    height: 25%;
-    width: 25%;
     border: none;
-    border-top: 18px solid transparent;
     border-bottom: 18px solid transparent;
     border-left: 30px solid #ffffff;
+    border-top: 18px solid transparent;
+    height: 25%;
+    width: 25%;
 }
 
 .section__intro-desc>h2 {
+    color: #252b42;
     font-family: 'Martel', serif;
     font-size: 40px;
-    line-height: 50px;
     letter-spacing: 0.2px;
-    color: #252b42;
+    line-height: 50px;
 }
 
 .section__intro-desc>p {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
-    letter-spacing: 0.2px;
     color: #737373;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    line-height: 20px;
 }
 
 .section__intro-desc-list>li h5 {
+    color: #252b42;
     font-family: 'Martel', serif;
     font-size: 16px;
-    line-height: 24px;
     letter-spacing: 0.1px;
-    color: #252b42;
+    line-height: 24px;
 }
 
 .section__intro-desc-list>li h6 {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 0.2px;
     color: #737373;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+    line-height: 24px;
 }
 
 .section__testimonials-title>h3 {
     font-family: 'Martel', serif;
     font-size: 40px;
-    line-height: 50px;
     letter-spacing: 0.2px;
+    line-height: 50px;
 }
 
 .section__testimonials-title>span {
     font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
     font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.2px;
     line-height: 20px;
     text-align: center;
-    letter-spacing: 0.2px;
 }
 
 .section__testimonials-items {
@@ -137,20 +137,20 @@ ul {
 }
 
 .section__testimonials-items-heading>h3 {
+    color: #252b42;
     font-family: 'Martel', serif;
     font-size: 24px;
-    line-height: 32px;
     letter-spacing: 0.1px;
-    color: #252b42;
+    line-height: 32px;
 }
 
 .section__testimonials-items-heading>span {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 0.2px;
     color: #737373;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+    line-height: 24px;
 }
 
 .section__testimonials-items-image {
@@ -160,12 +160,12 @@ ul {
 }
 
 .section__testimonials-items-text {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
-    letter-spacing: 0.2px;
     color: #737373;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    line-height: 20px;
 }
 
 .section__testimonials-rating {
@@ -187,6 +187,7 @@ ul {
 
 .section__testimonials-rating-blank {
     background-color: #ffffff;
+    border: 6px solid gold;
     clip-path: polygon(50% 0,
             61% 35%,
             98% 35%,
@@ -200,7 +201,6 @@ ul {
     display: inline;
     height: 20px;
     width: 20px;
-    border: 6px solid gold;
 }
 
 .owl-carousel .owl-item img {

@@ -13,20 +13,15 @@ $(document).ready(function () {
   });
 });
 
-$('.owl-carousel').owlCarousel({
+$('.loop').owlCarousel({
+  center: true,
+  items:2,
   loop:true,
-  margin:10,
-  nav:true,
+  margin:50,
   responsive:{
-      0:{
-          items:1
-      },
+    
       600:{
-          items:2
-      },
-      1000:{
-          stagePadding:100,
           items:2
       }
   }
-})
+});
